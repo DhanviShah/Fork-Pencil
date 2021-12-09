@@ -1,0 +1,47 @@
+.Contact {
+  height: 35em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ContactPhoto {
+  margin-top: 4em;
+  margin-bottom: 2em;
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 580px) {
+  .ContactPhoto {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    justify-content: space-between;
+    gap: 2em;
+  }
+}
+
+.ContactEmail {
+  width: 45%;
+  height: 5%;
+  background-color: #ffc3c9;
+  align-self: center;
+}
+@media (max-width: 890px) {
+  .ContactEmail {
+    width: 80%;
+  }
+}
+@media (max-width: 505px) {
+  .ContactEmail {
+    width: 80%;
+    height: 10%;
+  }
+}
+
+.ContactEmail:hover {
+  background-color: #fa9ca6;
+}
