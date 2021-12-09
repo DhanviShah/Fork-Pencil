@@ -1,0 +1,28 @@
+.profileCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ffc3c9;
+  height: 60vh;
+  width: 30%;
+}
+
+.profileCard:hover {
+  background-color: #fa9ca6;
+}
+
+@media (max-width: 580px) {
+  .profileCard {
+    width: 100%;
+  }
+}
+
+.profilePhoto {
+  width: 70%;
+  height: 70%;
+}
+
+.emailLink {
+  color: black;
+}
