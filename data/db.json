@@ -1,0 +1,94 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "recipe": {
+        "label": "samosa",
+        "cuisineType": "Indian",
+        "ingredients": [
+          {
+            "text": "Boil 1 KG Potatoes"
+          },
+          {
+            "text": "Make a dough and add necessary ingredients"
+          },
+          {
+            "text": "Fry them properly in Oil"
+          },
+          {
+            "text": "Server them nicely with Dahi and Chatni"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "recipe": {
+        "label": "idli",
+        "cuisineType": "South Indian",
+        "ingredients": [
+          {
+            "text": "4 Cup Rice"
+          },
+          {
+            "text": "Add necessary Water"
+          },
+          {
+            "text": "Prepare a mix of it"
+          },
+          {
+            "text": "Boil them in the Idli stand"
+          },
+          {
+            "text": "Serve them with Sambhar and Nariyal Chatni"
+          }
+        ]
+      }
+    },
+    {
+      "recipe": {
+        "label": "pizza",
+        "cuisineType": "European",
+        "ingredients": [
+          {
+            "text": "Make Pizza Dough"
+          },
+          {
+            "text": "Apply proper vegetables, sauce and Mozarrela Cheese on the bread."
+          },
+          {
+            "text": "Bake the Dough in Microwave"
+          },
+          {
+            "text": "Garnish it with Cheese"
+          }
+        ]
+      },
+      "id": 3
+    },
+    {
+      "recipe": {
+        "label": "Burger",
+        "cuisineType": "German",
+        "ingredients": [
+          {
+            "text": "Make a dough from Maida"
+          },
+          {
+            "text": " Prepare burger buns from the dough"
+          },
+          {
+            "text": " Put some slices of cucumber, tomatoes in it"
+          },
+          {
+            "text": " In between puta banana patis and then finally toast the burger in a pan"
+          },
+          {
+            "text": ""
+          }
+        ]
+      },
+      "id": 4
+    }
+  ]
+}
