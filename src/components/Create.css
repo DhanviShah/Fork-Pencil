@@ -1,0 +1,106 @@
+.create {
+  /* max-width: 400px; */
+  width: 100%;
+  height: 35em;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.create label {
+  color: #ff4958;
+  text-align: left;
+  display: block;
+  color: #ededed;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  font-size: 1em;
+}
+.create h2 {
+  font-size: 20px;
+  color: #ff4958;
+  margin-bottom: 30px;
+}
+
+.formContainer {
+  width: 35%;
+}
+@media (max-width: 1000px) {
+  .formContainer {
+    width: 50%;
+  }
+}
+@media (max-width: 800px) {
+  .formContainer {
+    width: 60%;
+  }
+}
+
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button {
+  border: none;
+  background-color: #ff4958;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  color: #ededed;
+  width: 150px;
+  transition: all 0.2s ease;
+  height: 40px;
+}
+
+.create button:hover {
+  background-color: #f82d3e;
+}
+
+.normalMessage {
+  visibility: hidden;
+}
+
+.addedMessage {
+  background-color: #ffc3c9;
+  height: 1.5em;
+  width: 40%;
+  text-align: center;
+}
+
+.addedMessage:hover {
+  background-color: #fa9ca6;
+}
+@media (max-width: 700px) {
+  .addedMessage {
+    width: 60%;
+  }
+}
+@media (max-width: 450px) {
+  .addedMessage {
+    width: 80%;
+    height: 2.5em;
+  }
+}
+@media (max-width: 200px) {
+  .addedMessage {
+    width: 100%;
+    height: 3.5em;
+  }
+}
+/* .create button {
+  background: #ff4958;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+} */
